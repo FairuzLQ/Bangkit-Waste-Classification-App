@@ -39,7 +39,7 @@ cron.schedule('0 * * * *', () => {
 // Load the machine learning model
 async function loadModel() {
   try {
-    model = await tf.loadLayersModel('https://storage.googleapis.com/waste-classification-model-77/model.json');
+    model = await tf.loadLayersModel('https://storage.googleapis.com/waste-classification-model-new/model.json');
     console.log('Model loaded successfully');
   } catch (error) {
     console.error('Error loading the model:', error);
@@ -109,9 +109,6 @@ async function predictPic(imagePath) {
       description = "Hazardous waste refers to waste materials that possess properties that make them potentially harmful to human health, the environment, or both. It includes substances that are toxic, flammable, corrosive, reactive, or infectious. Hazardous waste can come from various sources such as industrial processes, healthcare facilities, laboratories, and households. The improper handling, storage, or disposal of hazardous waste can lead to serious health risks and environmental contamination. These wastes require special attention and specific management procedures to ensure their safe handling and minimize their impact.";
       handling = "Red trash bins are designated for inorganic waste, so you can dispose of this type of waste in the red garbage cans. Besides that, you can manage hazardous waste in the following ways : 1. Storage: Store hazardous waste in secure and appropriate containers that are resistant to leaks or spills. Ensure that storage areas are well-maintained, properly ventilated, and equipped with necessary safety measures. Regularly inspect and monitor the storage facilities to prevent accidents. 2. Transportation: Hazardous waste must be transported by licensed carriers who comply with transportation regulations. Ensure that the waste is packaged securely and labeled correctly during transport to prevent any leakage or spills. 3. Treatment and disposal: Hazardous waste treatment and disposal should be carried out at authorized facilities. This may involve various methods such as incineration, chemical treatment, or recycling. Choose facilities that meet environmental standards and possess the necessary permits for handling hazardous waste. 4. Record-keeping and reporting: Maintain accurate records of the generation, storage, transportation, treatment, and disposal of hazardous waste. Submit required reports to the relevant regulatory authorities as per their guidelines and timelines. Remember, hazardous waste should never be mixed with regular household waste or poured down drains, as it can contaminate the environment and pose risks to human health. Always prioritize the responsible disposal of hazardous waste to protect both the environment and the well-being of communities in Indonesia.";
     }
-
-    console.log(predictedLabel);
-    console.log(confidence);
 
     return { prediction: predictedLabel, confidence, description, handling };
   } catch (error) {
