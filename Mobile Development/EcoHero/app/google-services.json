@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641965202899",
+    "project_id": "ecohero-7c423",
+    "storage_bucket": "ecohero-7c423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641965202899:android:95b2c72cd32b4a4855a326",
+        "android_client_info": {
+          "package_name": "com.example.ecohero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHCXolhkhbMNebaONlJJrUxgBl6F6GF58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
