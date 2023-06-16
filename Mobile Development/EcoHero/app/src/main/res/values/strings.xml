@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EcoHero</string>
+    <string name="app_name">ecohero</string>
     <string name="find_waste">Find Waste</string>
     <string name="get_started">Get Started</string>
     <string name="full_name">Full Name</string>
@@ -7,7 +7,7 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="sign_up">Sign Up</string>
-    <string name="about">The EcoHero app helps users differentiate between organic, inorganic and hazardous waste. Using visual recognition technology, the app identifies the type of waste that has been photographed with the camera. Detailed information about each type of waste is provided, including tips for proper treatment. The app helps users sort waste more efficiently, reduces errors in sorting, and increases environmental awareness. \n\nApplication Benefits:\nDifferentiate organic and inorganic waste with accuracy.\nProvides information on the types of waste and how they are processed.\nIncrease efficiency in waste sorting.\nReduce faults in the waste recycling process.\nEncourage environmental awareness and sustainable waste management.\n\nThe EcoHero app is a practical solution for better waste segregation and higher environmental awareness.</string>
+    <string name="about">The ecohero app helps users differentiate between organic, inorganic and hazardous waste. Using visual recognition technology, the app identifies the type of waste that has been photographed with the camera. Detailed information about each type of waste is provided, including tips for proper treatment. The app helps users sort waste more efficiently, reduces errors in sorting, and increases environmental awareness. \n\nApplication Benefits:\nDifferentiate organic and inorganic waste with accuracy.\nProvides information on the types of waste and how they are processed.\nIncrease efficiency in waste sorting.\nReduce faults in the waste recycling process.\nEncourage environmental awareness and sustainable waste management.\n\nThe ecohero app is a practical solution for better waste segregation and higher environmental awareness.</string>
     <string name="profile">Profile</string>
     <string name="text_upload">Upload your\nwaste here</string>
     <string name="upload_image">Upload Image</string>
