@@ -1,0 +1,3 @@
+Link Model:
+https://storage.googleapis.com/waste-classification-model-90/model.json
+
